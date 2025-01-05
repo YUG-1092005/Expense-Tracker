@@ -1,0 +1,141 @@
+.budget-cards-container {
+  padding: 20px;
+}
+
+.budget-cards-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #0a2e33;
+}
+
+.budget-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 2fr));
+  gap: 30px;
+}
+
+.budget-remain-spent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.budget-card-create {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #aeacac;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #d0d0d0;
+  transition: 0.4s ease;
+}
+
+.budget-card-create:hover {
+  border: 2px dashed #aeacac;
+  background-color: #e8e8e8;
+}
+
+.budget-card-create-content {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.budget-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  background: #fafafa;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.budget-card:hover {
+  border: 1px solid #c3c2c2;
+}
+
+.budget-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.budget-title-icon {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.budget-total-items {
+  padding: 1rem;
+}
+
+.budget-total-items span {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.budget-total-items p {
+  margin: 0;
+}
+
+.budget-card-icon {
+  background-color: #c4c4c4;
+  border-radius: 50px;
+  padding: 0.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.budget-card-details {
+  color: #08262a;
+}
+
+.budget-card-details h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.budget-card-details p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.budget-card-total {
+  color: #15616d;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.budget-card-spent {
+  color: #333;
+  opacity: 0.8;
+}
+
+.budget-card-remaining {
+  color: #333;
+  opacity: 0.8;
+}
+
+.budget-card-progress {
+  height: 8px;
+  background: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.budget-card-progress-bar {
+  height: 100%;
+  background: #15616d;
+  transition: width 0.3s ease-in-out;
+}
+
+.budget-card-progress {
+  background-color: #d1d1d1;
+}

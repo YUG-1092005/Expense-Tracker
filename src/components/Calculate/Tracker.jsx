@@ -84,7 +84,7 @@ const Tracker = () => {
   }
 
   return (
-    <div>
+    <div style={{padding:"2rem"}}>
       {showGreeting && (
         <h4 className="greeting">
           Welcome! Start by checking the "Income" box and adding your monthly
