@@ -1,0 +1,28 @@
+.relative {
+    position: relative;
+  }
+  
+  .w-32 {
+    width: 8rem;
+  }
+  
+  .h-32 {
+    height: 8rem;
+  }
+  
+  .text-gray-300 {
+    color: #0f4147; /* Light gray */
+  }
+  
+  .text-blue-600 {
+    color: #0f4147; /* Blue */
+  }
+  
+  .stroke-current {
+    stroke: currentColor;
+  }
+  
+  svg {
+    transition: stroke-dashoffset 0.5s ease;
+  }
+  

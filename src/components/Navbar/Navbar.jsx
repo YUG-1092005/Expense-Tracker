@@ -20,6 +20,7 @@ const Navbar = () => {
         <Link to="/calculate/expense">Calculate</Link>
         <Link to="/budgets">Budgets</Link>
         <Link to="/spendwise/signup">SignUp</Link>
+        <Link to="/spendwise/user/dashboard">Dashboard</Link>
       </div>
 
       <button className="menu-toggle" onClick={toggleMenu}>
